@@ -16,11 +16,13 @@ class CreateClientesTelefonesTable extends Migration
     Schema::create('clientes_telefones', function (Blueprint $table) {
       $table->increments('id');
       $table->string('telefone', 15);
+
       $table->foreign('id_clientes')
         ->references('id')
         ->on('clientes')
         ->onUpdate('cascade')
         ->onDelete('cascade');
+
       $table->softDeletes();
       $table->timestamps();
     });
