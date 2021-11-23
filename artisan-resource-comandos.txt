@@ -1,0 +1,4 @@
+--
+ - Todas as Resource se encontram nessa seção para json
+
+php artisan make:resource Clientes

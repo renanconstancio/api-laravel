@@ -1,0 +1,5 @@
+--
+ - Todas as Models se encontram nessa seção
+
+php artisan make:model Clientes
+php artisan make:model ClientesEnderecos

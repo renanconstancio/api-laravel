@@ -1,0 +1,5 @@
+
+--
+ - Todas as Controllers se encontram nessa seção
+
+php artisan make:controller ClientesEnderecosController --resource

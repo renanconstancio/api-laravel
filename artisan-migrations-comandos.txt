@@ -1,0 +1,7 @@
+
+--
+ - Todas as migrações do banco de dados se encontram nessa seção
+
+php artisan make:migration create_clientes_table --create=clientes
+php artisan make:migration create_clientes_telefones_table --create=clientes_telefones
+php artisan make:migration create_clientes_enderecos_table --create=clientes_enderecos

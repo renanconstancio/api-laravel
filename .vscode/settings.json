@@ -1,0 +1,7 @@
+{
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "[json, php]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+}
